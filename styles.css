@@ -1,0 +1,59 @@
+body {
+    font-family: "Arial", sans-serif;
+    padding: 0;
+    margin: 0
+}
+
+.wrapper {
+    background-color: #EDEDED;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.content {
+    background-color: #CBCAC9;
+    width: 100%
+}
+
+.days-wrapper {
+    display: flex;
+    list-style-type: none;
+    justify-content: center;
+    gap: 1%;
+}
+
+.day-button {
+    background-color: #0094F8;
+    color: white;
+    padding: 16px 20px;
+}
+
+.day-today {
+    background-color: green;
+}
+
+.day-button:hover {
+    cursor: pointer;
+}
+
+.day-button-today:hover {
+    cursor: pointer;
+}
+
+.day-name {
+    color: green;
+    font-weight: bold;
+}
+
+.active-button {
+    border: 2px solid white;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    text-align: center;
+}
+
+#selected-day {
+    font-weight: bold;
+    color: #0094F8;
+}
